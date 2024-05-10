@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
             width: '100%',
             height: 40,
             alignItems: 'center',
-            marginTop: 30, 
+            marginTop: 30,
         },
     shareButton:{
         backgroundColor: "#1877f2",

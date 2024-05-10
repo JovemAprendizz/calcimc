@@ -1,11 +1,11 @@
 
 import React, {useState, useEffect} from "react";
-import {Text, SafeAreaView, Share, TouchableOpacity, View } from 'react-native'
+import {Text, SafeAreaView, Share, TouchableOpacity, View,  } from 'react-native'
 import styles from "./style";
 export default function ResultImc(props){
     const onshare = async() =>{
         const result = await Share.share({
-            message: "Meu IMC é" + props.resultImc
+            message: "Meu IMC é " + props.resultImc
         })
     }
     const [classification, setClassificiation] = useState(null)
