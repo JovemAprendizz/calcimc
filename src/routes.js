@@ -15,7 +15,7 @@ export function Routes() {
                 return <Ionicons size={size} color={color} name='home-outline' />
             }
           }}}/>  
-          <Tabs.Screen name='DatesImc' component={DatesImc} options={ { tabBarShowLabel: false, title:'Meus dados', tabBarIcon: ({focused, size, color }) =>{
+          <Tabs.Screen name='DatesImc' component={DatesImc} options={ { tabBarShowLabel: false, headerShown: false, tabBarIcon: ({focused, size, color }) =>{
             if(focused){
               return <Ionicons size={size} color={color} name='lock-closed'/>
             }else{
